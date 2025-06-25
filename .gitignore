@@ -1,0 +1,7 @@
+__pycache__
+.venv
+GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
+genes.db
+notebooks/filter_genes.tsv
+data/gene_reads_whole_blood.gct
+data/gencode.v26.GRCh38.genes.gtf
