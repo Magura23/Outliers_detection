@@ -65,6 +65,9 @@ class AutoencoderExpressed(nn.Module):
     def get_theta(self):
             return self.theta
         
+    def get_latent(self, x):
+            return self.encoder(x)
+        
         
     @staticmethod
     def nb_nll_complete(k, mu, theta):

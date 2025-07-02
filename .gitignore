@@ -5,3 +5,7 @@ genes.db
 notebooks/filter_genes.tsv
 data/gene_reads_whole_blood.gct
 data/gencode.v26.GRCh38.genes.gtf
+data/GSE157103_raw_counts_GRCh38.p13_NCBI.tsv
+data/Human.GRCh38.p13.annot.tsv
+data/GSE157103_norm_counts_FPKM_GRCh38.p13_NCBI.tsv
+notebooks/testing_code.ipynb
