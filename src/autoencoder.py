@@ -170,7 +170,7 @@ class AutoencoderExpressed(nn.Module):
                 mu = self.get_mu(self.decoder(self.encoder(x)))
                 nll = self.nb_nll_complete(k, mu, self.theta)
                 losses.append(nll)
-                print(f'Epoch {epoch}, NLL: {nll:.6f}')
+                # print(f'Epoch {epoch}, NLL: {nll:.6f}')
                 
                 if prev_nll is not None and abs(nll.item()-prev_nll)<threshold:
                     print(f"Converged at epoch {epoch} (ΔNLL < {threshold})")
